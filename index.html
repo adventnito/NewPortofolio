@@ -400,7 +400,7 @@
   .skills{padding:110px 0;}
   .skills-grid{
     display:grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:repeat(5, 1fr);
     gap:1px;
     background:var(--border);
     border:1px solid var(--border);
@@ -578,7 +578,7 @@
     .hero-grid{grid-template-columns:1fr;}
     .about-grid{grid-template-columns:1fr; gap:48px;}
     .focus-grid{grid-template-columns:repeat(2,1fr);}
-    .skills-grid{grid-template-columns:repeat(2,1fr);}
+    .skills-grid{grid-template-columns:repeat(3,1fr);}
     .proj-grid{grid-template-columns:1fr;}
     .contact-grid{grid-template-columns:1fr;}
     .field-row{grid-template-columns:1fr;}
@@ -628,11 +628,11 @@
       <div class="hero-grid">
         <div>
           <div class="eyebrow">status: terbuka untuk proyek & magang</div>
-          <h1>Membangun aplikasi web<br>dari database sampai<br><span class="accent">antarmuka</span>.</h1>
+          <h1>Software <span class="accent">Engineer</span>.</h1>
           <p class="hero-sub">Saya Advent, mahasiswa Teknologi Informasi di Universitas Jember yang berfokus sebagai Fullstack Web Developer. Saya terbiasa mengerjakan alur end-to-end — merancang database, membangun backend, sampai menyusun antarmuka yang nyaman dipakai.</p>
           <div class="hero-actions">
             <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
-            <a href="CV_Advent_Nito_Reinner_Janoma.pdf" class="btn btn-ghost" id="cvBtn" download>Unduh CV</a>
+            <a href="CV%20Advent%20Nito%20Reinner%20Janoma(Update).pdf" class="btn btn-ghost" id="cvBtn" download>Unduh CV</a>
           </div>
           <div class="hero-socials">
             <a class="social-btn" href="https://github.com/adventnito" target="_blank" rel="noopener" aria-label="GitHub">
@@ -747,7 +747,7 @@
             <div class="edu-item">
               <div>
                 <div class="school">Universitas Jember</div>
-                <div class="meta">S1 Teknologi Informasi · IPK 3.39/4.00</div>
+                <div class="meta">S1 Teknologi Informasi · IPK 3.69/4.00</div>
               </div>
               <div class="yr">2024 — 2028*</div>
             </div>
@@ -808,27 +808,39 @@
           <h4>// Bahasa Pemrograman</h4>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>PHP</span></div>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>JavaScript</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>SQL</span></div>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>C#</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Dart</span></div>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>Python</span></div>
         </div>
         <div class="skill-col">
-          <h4>// Framework</h4>
+          <h4>// Framework & Library</h4>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>Laravel</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Livewire</span></div>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>Tailwind CSS</span></div>
-          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Livewire · Alpine.js</span></div>
-          <div class="skill-row"><span class="skill-name"><span class="dot"></span>.NET WinForm</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Alpine.js</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Bootstrap</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Flutter</span></div>
         </div>
         <div class="skill-col">
-          <h4>// Basis Data</h4>
-          <div class="skill-row"><span class="skill-name"><span class="dot"></span>PostgreSQL</span></div>
+          <h4>// Backend & API</h4>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>REST API</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Firebase Cloud Messaging</span></div>
+        </div>
+        <div class="skill-col">
+          <h4>// Database</h4>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>MySQL</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>PostgreSQL</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Supabase</span></div>
         </div>
         <div class="skill-col">
-          <h4>// Tools & Lainnya</h4>
-          <div class="skill-row"><span class="skill-name"><span class="dot"></span>VS Code</span></div>
-          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Git/GitHub</span></div>
+          <h4>// Tools</h4>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Git / GitHub</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Visual Studio Code</span></div>
           <div class="skill-row"><span class="skill-name"><span class="dot"></span>Visual Studio</span></div>
-          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Flutter/Dart</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Postman</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Laragon</span></div>
+          <div class="skill-row"><span class="skill-name"><span class="dot"></span>Composer / NPM</span></div>
         </div>
       </div>
     </div>
@@ -872,7 +884,7 @@
             <div class="proj-type">Fullstack Web · Dashboard Monitoring</div>
             <p>Sistem monitoring gudang pupuk & pestisida real-time — pemantauan suhu/kelembaban, kontrol aktuator, dan notifikasi ambang batas otomatis.</p>
             <div class="proj-stack">
-              <span>Laravel</span><span>Livewire</span><span>Alpine.js</span><span>MySQL</span>
+              <span>Laravel</span><span>Livewire</span><span>Alpine.js</span><span>MySQL</span><span>FCM</span>
             </div>
             <a class="proj-link" href="https://gudangsafe-frontend.vercel.app" target="_blank" rel="noopener">
               Lihat Projek <span>↗</span>
